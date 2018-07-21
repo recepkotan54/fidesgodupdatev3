@@ -2,9 +2,9 @@ const Discord = require('discord.js');
 
 
 exports.run = (client, message, args) => {
-    message.channel.send(new Discord.RichEmbed().setColor('RANDOM').setTitle('Komut girişi').setDescription('Gerekli Kanal kurulsun mu?.').setFooter('Bu eylemi onaylıyorsan "Evet" yazman yeterlidir.Bu eylem 10 saniye içinde sona erecek'))
+    message.channel.send(new Discord.RichEmbed().setColor('RANDOM').setTitle('Komut girişi').setDescription('Gerekli Kanal kurulsun mu?.').setFooter('Bu eylemi onaylıyorsan**evet** yazman yeterlidir.Bu eylem 10 saniye içinde sona erecek'))
 .then(() => {
-message.channel.awaitMessages(response => response.content === 'Evet', {
+message.channel.awaitMessages(response => response.content === 'evet', {
 max: 1,
 time: 10000,
 errors: ['time'],
