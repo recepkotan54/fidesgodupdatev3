@@ -12,12 +12,12 @@ exports.run = function(client, message) {
 	if (slot1 === slot2 && slot1 === slot3) {
 		message.channel.send(stripIndents`
 		${slot1} : ${slot2} : ${slot3}
-		Tebrikler, kazandınız!
+		:moneybag:Tebrikler, kazandınız:moneybag:
 		`); 
 	} else {
 		message.channel.send(stripIndents`
 		${slot1} : ${slot2} : ${slot3}
-		Eyvah, kaybettin!
+		:disappointed:Eyvah, kaybettin:disappointed:
 		`);	
 	}
 
