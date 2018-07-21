@@ -298,7 +298,7 @@ client.on('guildMemberAdd', member => {
   .setColor('RANDOM')
   .setAuthor(member.user.username, member.user.avatarURL)
   .setThumbnail(member.user.avatarURL)
-  .setTitle('| Sunucuya Katıldı | Hoşgeldin ')
+  .setTitle(':inbox_tray: **Sunucumuza Katıldı** | **Hoşgeldin** ')
   .setTimestamp()
   channel.sendEmbed(embed);
 });
