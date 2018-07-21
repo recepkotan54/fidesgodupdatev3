@@ -10,8 +10,8 @@ message.channel.sendMessage(' ```:pencil2:Botun yeniden başlatılmasına onay v
     errors: ['time'],
   })
   .then((collected) => {
-      message.channel.sendMessage(`:electric_plug:**Yapımcım Yeniden Başlıyorum*(:electric_plug:`).then(message => {
-      console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] :space_invader:**Bot Yeniden Başlatılıyor**:space_invader:`)
+      message.channel.sendMessage(`:electric_plug: **Yapımcım Yeniden Başlıyorum** :electric_plug:`).then(message => {
+      console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] :space_invader: **Bot Yeniden Başlatılıyor** :space_invader:`)
       process.exit(1);
     }).catch(console.error)
     })
