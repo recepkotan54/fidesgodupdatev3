@@ -55,7 +55,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'translate',
-  description: 'Translate komutu yükler.',
-  usage: 'Translate <yaz adı>'
+  name: 'çevir',
+  description: 'Çeviri Yaparsınız.',
+  usage: 'çevir english Selam'
 };
