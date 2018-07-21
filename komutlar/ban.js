@@ -39,6 +39,6 @@ exports.conf = {
 
 exports.help = {
   name: 'ban',
-  description: 'İstediğiniz kişiyi sunucudan yasaklar.',
+  description: 'BAN,
   usage: 'ban [kullanıcı] [sebep]'
 };
