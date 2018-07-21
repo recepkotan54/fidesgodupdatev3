@@ -27,7 +27,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'sunucularım',
-  description: 'Bu Komut Gizlidir',
+  name: 'sv',
+  description: 'YAPIMCI',
   usage: 'sv'
 };
