@@ -23,7 +23,7 @@ exports.run = (client, message, args) => {
   const embed = new Discord.RichEmbed()
     .setColor(0x00AE86)
     .setTimestamp()
-    .addField('Eylem:', 'Sunucudan Yasaklama :bangbang: ')
+    .addField('Eylem:', ':no_entry: Sunucudan Yasaklama :no_entry: ')
     .addField('Yasaklanan Kullanıcı:', `${user.username}#${user.discriminator} (${user.id})`)
     .addField('Yasaklayan Yetkili:', `${message.author.username}#${message.author.discriminator}`)
     .addField('Yasaklama Sebebi:', reason);
