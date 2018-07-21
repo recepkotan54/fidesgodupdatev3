@@ -39,6 +39,6 @@ exports.conf = {
 
 exports.help = {
   name: 'ban',
-  description: 'BAN,
+  description: 'BAN',
   usage: 'ban [kullanıcı] [sebep]'
 };
