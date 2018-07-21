@@ -12,8 +12,8 @@ exports.run =  function (bot, message) {
     for (const guild of guilds) {
       embed.addField(`${guild.name} (${guild.owner.user.username}#${guild.owner.user.discriminator} (${guild.owner.user.id})) - ${guild.memberCount}`, guild.id);
       embed.setColor("RANDOM")
-      embed.setTitle('Sunucular')
-      embed.setDescription(`Şu an ${bot.guilds.size} Sunucu'da Bulunuyorum!`)
+      embed.setTitle(':file_cabinet:Sunucular:file_cabinet:')
+      embed.setDescription(`:file_cabinet:Şu An ${bot.guilds.size} Sunucu'da Bulunuyorum! :file_cabinet:`)
     }
     message.channel.send({embed: embed});
   }
