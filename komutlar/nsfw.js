@@ -9,7 +9,7 @@ exports.run = (client, msg, args) => {
   else{
         msg.channel.send({embed: {
  color: Math.floor(Math.random() * (0xFFFFFF + 1)),
- description: (':underage: **Bu kanal Uygunsuz Kanal Değil!**:underage: **Ayarlardan bunu açabilirsin!**')
+ description: (':underage: **Bu Kanal Uygunsuz Kanal Değil!** :underage: **Ayarlardan bunu açabilirsin!**')
  }})
  }
 };
