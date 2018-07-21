@@ -22,7 +22,7 @@ exports.run = (client, msg, args) => {
 
  exports.help = {
    name: 'nsfw',
-   description: 'NSFW bir resim gösterir.',
+   description: '+18 Resim.',
    usage: 'nsfw'
  };
  
