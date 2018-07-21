@@ -40,6 +40,6 @@ exports.conf = {
 
 exports.help = {
   name: 'unban',
-  description: 'İstediğiniz kişinin banını kaldırır.',
+  description: 'UNBAN',
   usage: 'unban [kullanıcı] [sebep]'
 };
