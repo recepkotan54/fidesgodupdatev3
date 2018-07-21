@@ -15,14 +15,14 @@ exports.run = (client, message, params) => {
     .setColor(0x00AE86)
     .setTimestamp()
     .setAuthor(message.guild.name, message.guild.iconURL)
-    .addField('Sunucu Adı:', message.guild.name)
-    .addField('Sunucu ID:', message.guild.id)
-    .addField('Ana kanal:', message.guild.defaultChannel)
-    .addField('Sunucu Bölgesi:', message.guild.region)
-    .addField('Üye sayısı:', message.guild.memberCount)
-    .addField('Sahibi:', message.guild.owner + ' (' + message.guild.ownerID + ')')
-    .addField('Kanal sayısı:', message.guild.channels.size)
-    .addField('Oluşturulma tarihi:', message.guild.createdAt)
+    .addField(':clipboard:Sunucu Adı:clipboard:', message.guild.name)
+    .addField(':label:Sunucu ID:label:', message.guild.id)
+    .addField(':speech_balloon:Ana kanal:speech_balloon:', message.guild.defaultChannel)
+    .addField(':map:Sunucu Bölgesi:map:', message.guild.region)
+    .addField(':bust_in_silhouette:Üye Sayısı:bust_in_silhouette:', message.guild.memberCount)
+    .addField(':crown:Sahibi:crown:', message.guild.owner + ' (' + message.guild.ownerID + ')')
+    .addField(':1234:Kanal sayısı:1234:', message.guild.channels.size)
+    .addField(':calendar_spiral:Oluşturulma tarihi:calendar_spiral:', message.guild.createdAt)
     return message.channel.sendEmbed(sunucubilgi);
     }
 };
