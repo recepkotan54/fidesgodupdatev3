@@ -30,6 +30,6 @@ exports.conf = {
 
 exports.help = {
   name: 'reboot',
-  description: '[Admin Komutu]',
+  description: '[YAPIMCI]',
   usage: 'reboot'
 };
