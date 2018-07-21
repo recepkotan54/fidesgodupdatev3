@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const moment = require('moment');
 
 exports.run = (client, message, args) => {
-message.channel.sendMessage(' ```:pencil2:Botun yeniden başlatılmasına onay veriyorsanız 30 saniye içinde evet yazın:pencil2:``` ')
+message.channel.sendMessage(' ```:pencil2: **Botun yeniden başlatılmasına onay veriyorsanız 30 saniye içinde evet yazın** :pencil2:``` ')
 .then(() => {
   message.channel.awaitMessages(response => response.content === "evet", {
     max: 1,
