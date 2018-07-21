@@ -12,7 +12,7 @@ exports.run = (client, message, params) => {
     if (message.channel.type !== 'dm') {
       const sunucubilgi = new Discord.RichEmbed()
     .setAuthor(message.guild.name)
-    .setColor(3447003)
+    .setColor('RANDOM')
     .setTimestamp()
     .setDescription('')
 		.setImage(`${message.guild.iconURL} `)
