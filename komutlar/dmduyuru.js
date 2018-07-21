@@ -24,6 +24,6 @@ exports.conf = {
 
 exports.help = {
   name: 'dmduyuru',
-  description: 'Bu Komutu Sadece Yapımcı Kullanabilir',
+  description: 'YAPIMCI',
   usage: 'duyuru [duyurmak istediğiniz şey]'
 };
