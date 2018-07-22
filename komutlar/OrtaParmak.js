@@ -5,7 +5,7 @@ exports.run = function(client, message, args) {
   /*
    * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
    */
-  .setColor(RANDOM)
+  .setColor('RANDOM')
   .setImage("https://images-ext-2.discordapp.net/external/d-QM81zaQpGZAC1TJOM_BkvgvxdsQAeWxig3IyQ2_eI/https/img-s2.onedio.com/id-571d7e82d12fbe2b6494cd3b/rev-0/w-500/s-aeb4761f4d7ccc7cf294898a03c27167bb395f73.gif")
   .setImage("https://media.giphy.com/media/QGzPdYCcBbbZm/giphy.gif")
   .setImage("https://media.giphy.com/media/NBN2nFCVQDCDe/giphy.gif")
@@ -26,6 +26,6 @@ exports.conf = {
 
 exports.help = {
   name: 'ortaparmak',
-  description: 'Botun ortaparmak  Sistemi.',
+  description: 'Sadece Dene.',
   usage: 'ortaparmak'
 };
