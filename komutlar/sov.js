@@ -59,6 +59,6 @@ exports.conf = {
 
 exports.help = {
   name: 'söv',
-  description: 'Bot Söver. :)',
+  description: 'Bot Söver.',
   usage: 'söv'
  }
