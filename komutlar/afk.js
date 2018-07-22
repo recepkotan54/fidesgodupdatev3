@@ -7,7 +7,7 @@ exports.run = (client, message) => {
                     name: "Afk",
                     icon_url: "https://i.imgyukle.com/2018/05/07/V49QH.th.png"
                   },
-                description: "**:white_check_mark: Artik Afksin**"
+                description: "**:white_check_mark: Artik Afksın**"
               }});
 };
 
@@ -20,6 +20,6 @@ exports.conf = {
 
 exports.help = {
   name: 'afk',
-  description: 'Değişiklikleri gösterir.',
+  description: 'Afk Kalırsınız.',
   usage: 'afk'
 };
