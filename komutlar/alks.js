@@ -7,7 +7,7 @@ exports.run = function(client, message, args) {
    */
   .setColor("RANDOM")
   .setImage("https://thumbs.gfycat.com/WarpedAdmiredCormorant-size_restricted.gif")
-  .setFooter("♥ 2018 ♥ Fides God ♥ BOT ♥ 0.0.1 V ♥", " ")
+  .setFooter("♥ 2018 ♥ Fides God ♥ BOT ♥ 0.0.4 V ♥", " ")
   /*
    * Takes a Date object, defaults to current date.
    */
@@ -23,7 +23,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'alkis',
+  name: 'alkış',
   description: 'Bot Alkışlar',
-  usage: 'alkis'
+  usage: 'alkış'
 };
