@@ -23,7 +23,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'alkış',
+  name: 'alkis',
   description: 'Bot Alkışlar',
-  usage: 'Alkışlamak'
+  usage: 'alkis'
 };
