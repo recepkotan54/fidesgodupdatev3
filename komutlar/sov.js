@@ -1,35 +1,35 @@
 exports.run = async (client, msg, args) => {
   let kufur=[
     "",
-    "amına kodumun jedayı seni",
-    "babanın annesinin amına koyayım orul orul orospu evladı",
-    "ebenin amı gibi kaşları da kara",
-    "seni anasının amında olimpiyat meşalesi yakıp 10 km kostuğumun cocuğu ",
-    "senin ananın amına mancınıkla patates atayım",
-    "senin dalağını öyle bi sikerim ki ömür boyu hıçkırırsın",
-    "ananın amına bilardo topuyla rövaşata çekerim am dolması yarrak kafalı çin orospusu seni amına kodumun çin aslanı bilyesini gibtiğimin am düdüğü",
-    "senin ananı düdüklü tencerenin arasına alıp öttüre öttüre sikerim ulan ben",
-    "ananın amını keserim cebime koyarım sıkıldıkça sikerim",
-    "ananın amına sınav yapar 2 milyon kişiyi sokarım",
-    "amına barut döker sürtünmeyle yakarım orospu evladı",
-    "seni bi sikerim bluetooh un hata verir kapsama alanın genişler.",
-    "o tuşlara basan ufacık parmaklarının arasına sokar felç edene kadar siker o felç olan parmaklarını kesip organ mafyasına satarım elde ettigim gelirin bi kısmını görme engelliler vakfına bağışlar kalan kısmıda annenle çarçur eder babanın delirmesini sağlar ocağına incir ağacı diker ağacın gölgesinde teyzeni dallı budaklı sikerim senin",
-    "küfür etmek günah olum sen ne yaptıysan artık sana kızmış birisi affettir kendini beni de günaha sokçak orospu kertenkelesi",
-    "küfür ederdim ama anan çok yordu",
-    "öyle yan durup şekilli mekilli tişört giyme ananı götünden siker Erol Taş gibi kiraz ağacından kamçı yapar döverim",
+    "Amına kodumun jedayı seni",
+    "Babanın annesinin amına koyayım orul orul orospu evladı",
+    "Sbenin amı gibi kaşları da kara",
+    "Seni anasının amında olimpiyat meşalesi yakıp 10 km kostuğumun cocuğu ",
+    "Senin ananın amına mancınıkla patates atayım",
+    "Senin dalağını öyle bi sikerim ki ömür boyu hıçkırırsın",
+    "Ananın amına bilardo topuyla rövaşata çekerim am dolması yarrak kafalı çin orospusu seni amına kodumun çin aslanı bilyesini gibtiğimin am düdüğü",
+    "Senin ananı düdüklü tencerenin arasına alıp öttüre öttüre sikerim ulan ben",
+    "Ananın amını keserim cebime koyarım sıkıldıkça sikerim",
+    "Ananın amına sınav yapar 2 milyon kişiyi sokarım",
+    "Amına barut döker sürtünmeyle yakarım orospu evladı",
+    "Seni bi sikerim bluetooh un hata verir kapsama alanın genişler.",
+    "O tuşlara basan ufacık parmaklarının arasına sokar felç edene kadar siker o felç olan parmaklarını kesip organ mafyasına satarım elde ettigim gelirin bi kısmını görme engelliler vakfına bağışlar kalan kısmıda annenle çarçur eder babanın delirmesini sağlar ocağına incir ağacı diker ağacın gölgesinde teyzeni dallı budaklı sikerim senin",
+    "Küfür etmek günah olum sen ne yaptıysan artık sana kızmış birisi affettir kendini beni de günaha sokçak orospu kertenkelesi",
+    "Küfür ederdim ama anan çok yordu",
+    "Öyle yan durup şekilli mekilli tişört giyme ananı götünden siker Erol Taş gibi kiraz ağacından kamçı yapar döverim",
   ]
      let member = msg.mentions.members.first()
    if(!member)return msg.channel.send({embed: {
  color: Math.floor(Math.random() * (0xFFFFFF + 1)),
  description: (':no_entry_sign: Ya geçerli birini etiketle ya da sana sövmemi istiyosan kendini etiketle.')
 }});
-  if(member.id === "373380659932168192")return msg.channel.send({embed: {
+  if(member.id === "458232153830981634")return msg.channel.send({embed: {
  color: Math.floor(Math.random() * (0xFFFFFF + 1)),
- description: (':no_entry_sign: Sen Kimsin Emrenin Sevgilisine Sövüyon Oç.')
+ description: (':no_entry_sign: Şşş Yapımcım Görmesin Sakın.')
 }})
-  if(member.id === "427884522068246539")return msg.channel.send({embed: {
+  if(member.id === "385276534811787266")return msg.channel.send({embed: {
  color: Math.floor(Math.random() * (0xFFFFFF + 1)),
- description: (`:no_entry_sign: Hoop! Birşeyler ters gitti Receb'i etiketlemişsin yarram!`)
+ description: (`:no_entry_sign: Yapımcımın En Yakın Arkadaşına Sövemezsin.`)
 }})
   if(member.id === "380817516252889109")return msg.channel.send({embed: {
  color: Math.floor(Math.random() * (0xFFFFFF + 1)),
@@ -38,7 +38,7 @@ exports.run = async (client, msg, args) => {
   if(member.id === client.user.id){
     msg.channel.send({embed: {
  color: Math.floor(Math.random() * (0xFFFFFF + 1)),
- description: (`:no_entry_sign: Beni mi kandırcan orospu çocuğu ?`)
+ description: (`:no_entry_sign: Kendi Kendimemi Sövmemi İstiyon Amk`)
 }})
   }
   else{
