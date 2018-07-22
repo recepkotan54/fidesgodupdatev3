@@ -9,7 +9,7 @@ exports.run = function(client, message, args) {
   .setImage("https://images-ext-2.discordapp.net/external/d-QM81zaQpGZAC1TJOM_BkvgvxdsQAeWxig3IyQ2_eI/https/img-s2.onedio.com/id-571d7e82d12fbe2b6494cd3b/rev-0/w-500/s-aeb4761f4d7ccc7cf294898a03c27167bb395f73.gif")
   .setImage("https://media.giphy.com/media/QGzPdYCcBbbZm/giphy.gif")
   .setImage("https://media.giphy.com/media/NBN2nFCVQDCDe/giphy.gif")
-  .setFooter("2018 | Black Bot", "https://i.hizliresim.com/QVGZ5A.jpg")
+  .setFooter("2018 | Fides God", "https://cdn.discordapp.com/attachments/469843276954992662/470591640696782848/icons8-xbox-r-50.png")
   /*
    * Takes a Date object, defaults to current date.
    */
