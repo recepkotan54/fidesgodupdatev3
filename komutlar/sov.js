@@ -29,11 +29,11 @@ exports.run = async (client, msg, args) => {
 }})
   if(member.id === "385276534811787266")return msg.channel.send({embed: {
  color: Math.floor(Math.random() * (0xFFFFFF + 1)),
- description: (`:no_entry_sign: Yapımcımın En Yakın Arkadaşına Sövemezsin.`)
+ description: (`:no_entry_sign: Yapımcımın En Yakın Arkadaşına Sövemem.`)
 }})
-  if(member.id === "380817516252889109")return msg.channel.send({embed: {
+  if(member.id === "338702790346145794")return msg.channel.send({embed: {
  color: Math.floor(Math.random() * (0xFFFFFF + 1)),
- description: (`:no_entry_sign: Hoop! Orda durucan Yapımcım Emre'ye sövemezsin.`)
+ description: (`:no_entry_sign: Hoop! Orda Duracan Size Key Vermemizi Sağlayan Kişiye Sövemem.`)
 }})
   if(member.id === client.user.id){
     msg.channel.send({embed: {
