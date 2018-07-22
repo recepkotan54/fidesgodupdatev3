@@ -8,7 +8,7 @@ exports.run = (client, message, args) => {
   client.user.setGame(`${gametitle}`);
   message.channel.send({embed: {
     color: 3447003,
-    description: `✅  Oynadığı Oyun 》 **${gametitle}** Olarak Değiştirildi.`
+    description: `✅ Botun Oynuyor Yazısı 》 **${gametitle}** Olarak Değiştirildi.`
   }});
 };
 
@@ -21,7 +21,7 @@ exports.conf = {
 
 exports.help = {
   name: 'oyun',
-  description: 'Botun yayın başligini gösterir.',
+  description: 'YAPIMCI',
   usage: 'oyun <oyun basligi>'
 };
 
